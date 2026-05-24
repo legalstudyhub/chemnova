@@ -21,17 +21,17 @@
 ========================= */
 
 *{
-margin:0;
-padding:0;
-box-sizing:border-box;
-scroll-behavior:smooth;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
 }
 
 body{
-font-family:'Poppins',sans-serif;
-background:#050816;
-color:white;
-overflow-x:hidden;
+    font-family:'Poppins',sans-serif;
+    background:#050816;
+    color:white;
+    overflow-x:hidden;
 }
 
 /* =========================
@@ -39,27 +39,27 @@ overflow-x:hidden;
 ========================= */
 
 .bg-blur1{
-position:fixed;
-width:350px;
-height:350px;
-background:#00E5FF;
-filter:blur(180px);
-top:-100px;
-left:-100px;
-opacity:0.25;
-z-index:-1;
+    position:fixed;
+    width:350px;
+    height:350px;
+    background:#00E5FF;
+    filter:blur(180px);
+    top:-100px;
+    left:-100px;
+    opacity:0.25;
+    z-index:-1;
 }
 
 .bg-blur2{
-position:fixed;
-width:400px;
-height:400px;
-background:#8B5CF6;
-filter:blur(200px);
-bottom:-100px;
-right:-100px;
-opacity:0.25;
-z-index:-1;
+    position:fixed;
+    width:400px;
+    height:400px;
+    background:#8B5CF6;
+    filter:blur(200px);
+    bottom:-100px;
+    right:-100px;
+    opacity:0.25;
+    z-index:-1;
 }
 
 /* =========================
@@ -67,45 +67,45 @@ z-index:-1;
 ========================= */
 
 .navbar{
-width:100%;
-position:fixed;
-top:0;
-left:0;
-z-index:1000;
+    width:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:1000;
 
-display:flex;
-justify-content:space-between;
-align-items:center;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
 
-padding:20px 8%;
+    padding:20px 8%;
 
-background:rgba(5,8,22,0.8);
-backdrop-filter:blur(14px);
+    background:rgba(5,8,22,0.85);
+    backdrop-filter:blur(14px);
 
-border-bottom:1px solid rgba(255,255,255,0.08);
+    border-bottom:1px solid rgba(255,255,255,0.08);
 }
 
 .logo{
-font-size:32px;
-font-family:'Orbitron',sans-serif;
-color:#00E5FF;
-font-weight:700;
+    font-size:32px;
+    font-family:'Orbitron',sans-serif;
+    color:#00E5FF;
+    font-weight:700;
 }
 
 .nav-links{
-display:flex;
-gap:30px;
+    display:flex;
+    gap:30px;
 }
 
 .nav-links a{
-color:white;
-text-decoration:none;
-font-weight:500;
-transition:0.3s;
+    color:white;
+    text-decoration:none;
+    font-weight:500;
+    transition:0.3s;
 }
 
 .nav-links a:hover{
-color:#00E5FF;
+    color:#00E5FF;
 }
 
 /* =========================
@@ -113,145 +113,147 @@ color:#00E5FF;
 ========================= */
 
 .hero{
-min-height:100vh;
+    min-height:100vh;
 
-display:flex;
-justify-content:center;
-align-items:center;
-text-align:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
 
-padding:180px 10% 100px;
+    padding:180px 10% 100px;
 }
 
 .hero-content h1{
-font-size:80px;
-line-height:1.2;
-margin-bottom:25px;
+    font-size:85px;
+    line-height:1.2;
+    margin-bottom:25px;
 
-font-family:'Orbitron',sans-serif;
+    font-family:'Orbitron',sans-serif;
 
-background:linear-gradient(to right,#00E5FF,#8B5CF6);
--webkit-background-clip:text;
--webkit-text-fill-color:transparent;
+    background:linear-gradient(to right,#00E5FF,#8B5CF6);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
 }
 
 .hero-content p{
-max-width:850px;
-margin:auto;
+    max-width:900px;
+    margin:auto;
 
-font-size:22px;
-line-height:1.9;
-color:#CBD5E1;
+    font-size:22px;
+    line-height:1.9;
+    color:#CBD5E1;
 }
 
-/* BUTTONS */
+/* =========================
+   BUTTONS
+========================= */
 
 .hero-buttons{
-margin-top:40px;
+    margin-top:40px;
 
-display:flex;
-justify-content:center;
-gap:20px;
-flex-wrap:wrap;
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
 }
 
 .btn{
-padding:16px 38px;
-border-radius:50px;
-text-decoration:none;
-font-weight:600;
-transition:0.4s;
+    padding:16px 38px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:600;
+    transition:0.4s;
 }
 
 .btn-primary{
-background:linear-gradient(to right,#00E5FF,#8B5CF6);
-color:white;
+    background:linear-gradient(to right,#00E5FF,#8B5CF6);
+    color:white;
 }
 
 .btn-primary:hover{
-transform:translateY(-5px);
-box-shadow:0 10px 30px rgba(0,229,255,0.35);
+    transform:translateY(-5px);
+    box-shadow:0 10px 30px rgba(0,229,255,0.35);
 }
 
 .btn-outline{
-border:2px solid #00E5FF;
-color:#00E5FF;
+    border:2px solid #00E5FF;
+    color:#00E5FF;
 }
 
 .btn-outline:hover{
-background:#00E5FF;
-color:#050816;
+    background:#00E5FF;
+    color:#050816;
 }
 
 /* =========================
-   SECTION TITLE
+   SECTION
 ========================= */
 
 .section{
-padding:100px 8%;
+    padding:100px 8%;
 }
 
 .section-title{
-text-align:center;
-margin-bottom:60px;
+    text-align:center;
+    margin-bottom:60px;
 }
 
 .section-title h2{
-font-size:50px;
-margin-bottom:15px;
-font-family:'Orbitron',sans-serif;
-color:#00E5FF;
+    font-size:50px;
+    margin-bottom:15px;
+    font-family:'Orbitron',sans-serif;
+    color:#00E5FF;
 }
 
 .section-title p{
-color:#CBD5E1;
-font-size:18px;
+    color:#CBD5E1;
+    font-size:18px;
 }
 
 /* =========================
-   CARD GRID
+   CARDS
 ========================= */
 
 .card-grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-gap:30px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
 }
 
 .card{
-background:rgba(255,255,255,0.05);
+    background:rgba(255,255,255,0.05);
 
-border:1px solid rgba(255,255,255,0.08);
+    border:1px solid rgba(255,255,255,0.08);
 
-border-radius:24px;
+    border-radius:24px;
 
-padding:35px;
+    padding:35px;
 
-backdrop-filter:blur(20px);
+    backdrop-filter:blur(20px);
 
-transition:0.4s;
+    transition:0.4s;
 }
 
 .card:hover{
-transform:translateY(-10px);
-border-color:#00E5FF;
-box-shadow:0 10px 40px rgba(0,229,255,0.15);
+    transform:translateY(-10px);
+    border-color:#00E5FF;
+    box-shadow:0 10px 40px rgba(0,229,255,0.15);
 }
 
 .card i{
-font-size:45px;
-color:#00E5FF;
-margin-bottom:20px;
+    font-size:45px;
+    color:#00E5FF;
+    margin-bottom:20px;
 }
 
 .card h3{
-font-size:28px;
-margin-bottom:15px;
+    font-size:28px;
+    margin-bottom:15px;
 }
 
 .card p{
-color:#CBD5E1;
-line-height:1.8;
+    color:#CBD5E1;
+    line-height:1.8;
 }
 
 /* =========================
@@ -259,61 +261,81 @@ line-height:1.8;
 ========================= */
 
 .science-box{
-background:linear-gradient(
-135deg,
-rgba(0,229,255,0.1),
-rgba(139,92,246,0.1)
-);
+    background:linear-gradient(
+    135deg,
+    rgba(0,229,255,0.1),
+    rgba(139,92,246,0.1)
+    );
 
-border:1px solid rgba(255,255,255,0.08);
+    border:1px solid rgba(255,255,255,0.08);
 
-border-radius:25px;
+    border-radius:25px;
 
-padding:50px;
+    padding:60px;
 
-text-align:center;
+    text-align:center;
 }
 
 .science-box h2{
-font-size:45px;
-margin-bottom:25px;
-color:#00E5FF;
-font-family:'Orbitron',sans-serif;
+    font-size:45px;
+    margin-bottom:25px;
+    color:#00E5FF;
+    font-family:'Orbitron',sans-serif;
 }
 
 .science-box p{
-max-width:900px;
-margin:auto;
-line-height:2;
-color:#CBD5E1;
-font-size:18px;
+    max-width:900px;
+    margin:auto;
+    line-height:2;
+    color:#CBD5E1;
+    font-size:18px;
 }
 
 /* =========================
    AUTHOR SECTION
 ========================= */
 
-.author-box{
-margin-top:40px;
-padding:25px;
-border-radius:20px;
-
-background:rgba(255,255,255,0.05);
-border:1px solid rgba(255,255,255,0.08);
-
-display:inline-block;
+.author-section{
+    padding:80px 8%;
 }
 
-.author-box h4{
-font-size:24px;
-margin-bottom:10px;
-color:#00E5FF;
-font-family:'Orbitron',sans-serif;
+.author-card{
+    max-width:700px;
+    margin:auto;
+
+    background:rgba(255,255,255,0.05);
+
+    border:1px solid rgba(255,255,255,0.08);
+
+    border-radius:25px;
+
+    padding:45px;
+
+    text-align:center;
+
+    backdrop-filter:blur(20px);
 }
 
-.author-box p{
-color:#CBD5E1;
-line-height:1.8;
+.author-card img{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    object-fit:cover;
+    margin-bottom:20px;
+
+    border:4px solid #00E5FF;
+}
+
+.author-card h3{
+    font-size:32px;
+    margin-bottom:10px;
+    color:#00E5FF;
+}
+
+.author-card p{
+    color:#CBD5E1;
+    line-height:1.8;
+    font-size:17px;
 }
 
 /* =========================
@@ -321,23 +343,23 @@ line-height:1.8;
 ========================= */
 
 footer{
-background:#02040D;
-padding:60px 8%;
-text-align:center;
+    background:#02040D;
+    padding:60px 8%;
+    text-align:center;
 
-border-top:1px solid rgba(255,255,255,0.08);
+    border-top:1px solid rgba(255,255,255,0.08);
 }
 
 footer h3{
-color:#00E5FF;
-font-size:35px;
-margin-bottom:15px;
-font-family:'Orbitron',sans-serif;
+    color:#00E5FF;
+    font-size:35px;
+    margin-bottom:15px;
+    font-family:'Orbitron',sans-serif;
 }
 
 footer p{
-color:#94A3B8;
-line-height:1.8;
+    color:#94A3B8;
+    line-height:1.8;
 }
 
 /* =========================
@@ -347,23 +369,23 @@ line-height:1.8;
 @media(max-width:900px){
 
 .hero-content h1{
-font-size:48px;
+    font-size:48px;
 }
 
 .hero-content p{
-font-size:18px;
+    font-size:18px;
 }
 
 .nav-links{
-display:none;
+    display:none;
 }
 
 .section-title h2{
-font-size:36px;
+    font-size:36px;
 }
 
 .science-box h2{
-font-size:34px;
+    font-size:34px;
 }
 
 }
@@ -413,9 +435,10 @@ The Future of Chemistry
 </h1>
 
 <p>
-Explore the world of atoms, molecules, nanotechnology,
-quantum chemistry and futuristic scientific innovations
-through a modern AI-inspired chemistry platform.
+Explore the world of atoms, molecules,
+nanotechnology, quantum chemistry and futuristic
+scientific innovations through a modern AI-inspired
+chemistry platform.
 </p>
 
 <div class="hero-buttons">
@@ -435,7 +458,7 @@ through a modern AI-inspired chemistry platform.
 </section>
 
 <!-- =========================
-     FEATURES
+     FEATURES SECTION
 ========================= -->
 
 <section class="section">
@@ -534,6 +557,34 @@ a premium next-generation interface.
 </section>
 
 <!-- =========================
+     AUTHOR SECTION
+========================= -->
+
+<section class="author-section">
+
+<div class="author-card">
+
+<img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png">
+
+<h3>Alok Ranjan</h3>
+
+<p>
+Chemistry Department
+</p>
+
+<p>
+L.N.M.U. Darbhanga Bihar
+</p>
+
+<p style="margin-top:15px;">
+Research Enthusiast • Chemistry Student • Scientific Innovator
+</p>
+
+</div>
+
+</section>
+
+<!-- =========================
      FOOTER
 ========================= -->
 
@@ -548,24 +599,14 @@ Modern Chemistry & Scientific Technology Platform
 </p>
 
 <p style="margin-top:15px;">
-Designed for Students, Researchers & Innovators
+Designed & Developed by Alok Ranjan
 </p>
-
-<div class="author-box">
-
-<h4>
-Author
-</h4>
 
 <p>
-<strong>Alok Ranjan</strong><br>
-Chemistry Department<br>
-L.N.M.U. Darbhanga, Bihar
+Chemistry Department, L.N.M.U. Darbhanga Bihar
 </p>
 
-</div>
-
-<p style="margin-top:25px;">
+<p style="margin-top:20px;">
 © 2026 ChemNova. All Rights Reserved.
 </p>
 
