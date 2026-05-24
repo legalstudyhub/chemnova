@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>ChemNova | Modern Chemistry Platform</title>
+<title>Spectroscopy | ChemNova</title>
 
 <!-- GOOGLE FONTS -->
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -21,17 +21,17 @@
 ========================= */
 
 *{
-margin:0;
-padding:0;
-box-sizing:border-box;
-scroll-behavior:smooth;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
 }
 
 body{
-font-family:'Poppins',sans-serif;
-background:#050816;
-color:white;
-overflow-x:hidden;
+    font-family:'Poppins',sans-serif;
+    background:#050816;
+    color:white;
+    overflow-x:hidden;
 }
 
 /* =========================
@@ -39,27 +39,27 @@ overflow-x:hidden;
 ========================= */
 
 .bg-blur1{
-position:fixed;
-width:350px;
-height:350px;
-background:#00E5FF;
-filter:blur(180px);
-top:-100px;
-left:-100px;
-opacity:0.25;
-z-index:-1;
+    position:fixed;
+    width:350px;
+    height:350px;
+    background:#00E5FF;
+    filter:blur(180px);
+    top:-100px;
+    left:-100px;
+    opacity:0.25;
+    z-index:-1;
 }
 
 .bg-blur2{
-position:fixed;
-width:400px;
-height:400px;
-background:#8B5CF6;
-filter:blur(200px);
-bottom:-100px;
-right:-100px;
-opacity:0.25;
-z-index:-1;
+    position:fixed;
+    width:400px;
+    height:400px;
+    background:#8B5CF6;
+    filter:blur(200px);
+    bottom:-100px;
+    right:-100px;
+    opacity:0.25;
+    z-index:-1;
 }
 
 /* =========================
@@ -67,45 +67,45 @@ z-index:-1;
 ========================= */
 
 .navbar{
-width:100%;
-position:fixed;
-top:0;
-left:0;
-z-index:1000;
+    width:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:1000;
 
-display:flex;
-justify-content:space-between;
-align-items:center;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
 
-padding:20px 8%;
+    padding:20px 8%;
 
-background:rgba(5,8,22,0.85);
-backdrop-filter:blur(14px);
+    background:rgba(5,8,22,0.85);
+    backdrop-filter:blur(14px);
 
-border-bottom:1px solid rgba(255,255,255,0.08);
+    border-bottom:1px solid rgba(255,255,255,0.08);
 }
 
 .logo{
-font-size:32px;
-font-family:'Orbitron',sans-serif;
-color:#00E5FF;
-font-weight:700;
+    font-size:32px;
+    font-family:'Orbitron',sans-serif;
+    color:#00E5FF;
+    font-weight:700;
 }
 
 .nav-links{
-display:flex;
-gap:30px;
+    display:flex;
+    gap:30px;
 }
 
 .nav-links a{
-color:white;
-text-decoration:none;
-font-weight:500;
-transition:0.3s;
+    color:white;
+    text-decoration:none;
+    font-weight:500;
+    transition:0.3s;
 }
 
 .nav-links a:hover{
-color:#00E5FF;
+    color:#00E5FF;
 }
 
 /* =========================
@@ -113,35 +113,35 @@ color:#00E5FF;
 ========================= */
 
 .hero{
-min-height:100vh;
+    min-height:70vh;
 
-display:flex;
-justify-content:center;
-align-items:center;
-text-align:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
 
-padding:180px 10% 100px;
+    padding:180px 10% 100px;
 }
 
 .hero-content h1{
-font-size:85px;
-line-height:1.2;
-margin-bottom:25px;
+    font-size:80px;
+    line-height:1.2;
+    margin-bottom:25px;
 
-font-family:'Orbitron',sans-serif;
+    font-family:'Orbitron',sans-serif;
 
-background:linear-gradient(to right,#00E5FF,#8B5CF6);
--webkit-background-clip:text;
--webkit-text-fill-color:transparent;
+    background:linear-gradient(to right,#00E5FF,#8B5CF6);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
 }
 
 .hero-content p{
-max-width:900px;
-margin:auto;
+    max-width:900px;
+    margin:auto;
 
-font-size:22px;
-line-height:1.9;
-color:#CBD5E1;
+    font-size:22px;
+    line-height:1.9;
+    color:#CBD5E1;
 }
 
 /* =========================
@@ -149,40 +149,40 @@ color:#CBD5E1;
 ========================= */
 
 .hero-buttons{
-margin-top:40px;
+    margin-top:40px;
 
-display:flex;
-justify-content:center;
-gap:20px;
-flex-wrap:wrap;
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
 }
 
 .btn{
-padding:16px 38px;
-border-radius:50px;
-text-decoration:none;
-font-weight:600;
-transition:0.4s;
+    padding:16px 38px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:600;
+    transition:0.4s;
 }
 
 .btn-primary{
-background:linear-gradient(to right,#00E5FF,#8B5CF6);
-color:white;
+    background:linear-gradient(to right,#00E5FF,#8B5CF6);
+    color:white;
 }
 
 .btn-primary:hover{
-transform:translateY(-5px);
-box-shadow:0 10px 30px rgba(0,229,255,0.35);
+    transform:translateY(-5px);
+    box-shadow:0 10px 30px rgba(0,229,255,0.35);
 }
 
 .btn-outline{
-border:2px solid #00E5FF;
-color:#00E5FF;
+    border:2px solid #00E5FF;
+    color:#00E5FF;
 }
 
 .btn-outline:hover{
-background:#00E5FF;
-color:#050816;
+    background:#00E5FF;
+    color:#050816;
 }
 
 /* =========================
@@ -190,152 +190,105 @@ color:#050816;
 ========================= */
 
 .section{
-padding:100px 8%;
+    padding:100px 8%;
 }
 
 .section-title{
-text-align:center;
-margin-bottom:60px;
+    text-align:center;
+    margin-bottom:60px;
 }
 
 .section-title h2{
-font-size:50px;
-margin-bottom:15px;
-font-family:'Orbitron',sans-serif;
-color:#00E5FF;
+    font-size:50px;
+    margin-bottom:15px;
+    font-family:'Orbitron',sans-serif;
+    color:#00E5FF;
 }
 
 .section-title p{
-color:#CBD5E1;
-font-size:18px;
+    color:#CBD5E1;
+    font-size:18px;
 }
 
 /* =========================
-   CARD GRID
+   CARDS
 ========================= */
 
 .card-grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-gap:30px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
 }
 
 .card{
-background:rgba(255,255,255,0.05);
+    background:rgba(255,255,255,0.05);
 
-border:1px solid rgba(255,255,255,0.08);
+    border:1px solid rgba(255,255,255,0.08);
 
-border-radius:24px;
+    border-radius:24px;
 
-padding:35px;
+    padding:35px;
 
-backdrop-filter:blur(20px);
+    backdrop-filter:blur(20px);
 
-transition:0.4s;
+    transition:0.4s;
 }
 
 .card:hover{
-transform:translateY(-10px);
-border-color:#00E5FF;
-box-shadow:0 10px 40px rgba(0,229,255,0.15);
+    transform:translateY(-10px);
+    border-color:#00E5FF;
+    box-shadow:0 10px 40px rgba(0,229,255,0.15);
 }
 
 .card i{
-font-size:45px;
-color:#00E5FF;
-margin-bottom:20px;
+    font-size:45px;
+    color:#00E5FF;
+    margin-bottom:20px;
 }
 
 .card h3{
-font-size:28px;
-margin-bottom:15px;
+    font-size:28px;
+    margin-bottom:15px;
 }
 
 .card p{
-color:#CBD5E1;
-line-height:1.8;
+    color:#CBD5E1;
+    line-height:1.8;
 }
 
 /* =========================
-   SCIENCE BOX
+   INFO SECTION
 ========================= */
 
-.science-box{
-background:linear-gradient(
-135deg,
-rgba(0,229,255,0.1),
-rgba(139,92,246,0.1)
-);
+.info-box{
+    background:linear-gradient(
+    135deg,
+    rgba(0,229,255,0.1),
+    rgba(139,92,246,0.1)
+    );
 
-border:1px solid rgba(255,255,255,0.08);
+    border:1px solid rgba(255,255,255,0.08);
 
-border-radius:25px;
+    border-radius:25px;
 
-padding:60px;
+    padding:60px;
 
-text-align:center;
+    text-align:center;
 }
 
-.science-box h2{
-font-size:45px;
-margin-bottom:25px;
-color:#00E5FF;
-font-family:'Orbitron',sans-serif;
+.info-box h2{
+    font-size:45px;
+    margin-bottom:25px;
+    color:#00E5FF;
+    font-family:'Orbitron',sans-serif;
 }
 
-.science-box p{
-max-width:900px;
-margin:auto;
-line-height:2;
-color:#CBD5E1;
-font-size:18px;
-}
-
-/* =========================
-   AUTHOR SECTION
-========================= */
-
-.author-section{
-padding:80px 8%;
-}
-
-.author-card{
-max-width:700px;
-margin:auto;
-
-background:rgba(255,255,255,0.05);
-
-border:1px solid rgba(255,255,255,0.08);
-
-border-radius:25px;
-
-padding:45px;
-
-text-align:center;
-
-backdrop-filter:blur(20px);
-}
-
-.author-card img{
-width:120px;
-height:120px;
-border-radius:50%;
-object-fit:cover;
-margin-bottom:20px;
-
-border:4px solid #00E5FF;
-}
-
-.author-card h3{
-font-size:32px;
-margin-bottom:10px;
-color:#00E5FF;
-}
-
-.author-card p{
-color:#CBD5E1;
-line-height:1.8;
-font-size:17px;
+.info-box p{
+    max-width:900px;
+    margin:auto;
+    line-height:2;
+    color:#CBD5E1;
+    font-size:18px;
 }
 
 /* =========================
@@ -343,23 +296,23 @@ font-size:17px;
 ========================= */
 
 footer{
-background:#02040D;
-padding:60px 8%;
-text-align:center;
+    background:#02040D;
+    padding:60px 8%;
+    text-align:center;
 
-border-top:1px solid rgba(255,255,255,0.08);
+    border-top:1px solid rgba(255,255,255,0.08);
 }
 
 footer h3{
-color:#00E5FF;
-font-size:35px;
-margin-bottom:15px;
-font-family:'Orbitron',sans-serif;
+    color:#00E5FF;
+    font-size:35px;
+    margin-bottom:15px;
+    font-family:'Orbitron',sans-serif;
 }
 
 footer p{
-color:#94A3B8;
-line-height:1.8;
+    color:#94A3B8;
+    line-height:1.8;
 }
 
 /* =========================
@@ -369,23 +322,23 @@ line-height:1.8;
 @media(max-width:900px){
 
 .hero-content h1{
-font-size:48px;
+    font-size:48px;
 }
 
 .hero-content p{
-font-size:18px;
+    font-size:18px;
 }
 
 .nav-links{
-display:none;
+    display:none;
 }
 
 .section-title h2{
-font-size:36px;
+    font-size:36px;
 }
 
-.science-box h2{
-font-size:34px;
+.info-box h2{
+    font-size:34px;
 }
 
 }
@@ -412,12 +365,11 @@ font-size:34px;
 </div>
 
 <div class="nav-links">
-<a href="#">Home</a>
-<a href="#">Features</a>
-<a href="#">Spectroscopy</a>
-<a href="#">Research</a>
-<a href="#">Technology</a>
-<a href="#">Contact</a>
+<a href="index.html">Home</a>
+<a href="#topics">Topics</a>
+<a href="#applications">Applications</a>
+<a href="#research">Research</a>
+<a href="#contact">Contact</a>
 </div>
 
 </nav>
@@ -431,24 +383,23 @@ font-size:34px;
 <div class="hero-content">
 
 <h1>
-The Future of Chemistry
+Explore Spectroscopy
 </h1>
 
 <p>
-Explore the world of atoms, molecules,
-nanotechnology, quantum chemistry and futuristic
-scientific innovations through a modern AI-inspired
-chemistry platform.
+Learn advanced spectroscopic techniques used in chemistry,
+physics, pharmaceuticals, nanotechnology and modern scientific research.
+Explore molecular structures, atomic transitions and analytical science.
 </p>
 
 <div class="hero-buttons">
 
-<a href="#spectroscopy" class="btn btn-primary">
-🧪 Explore Spectroscopy
+<a href="#topics" class="btn btn-primary">
+🔬 Explore Topics
 </a>
 
-<a href="#" class="btn btn-outline">
-⚛ View Elements
+<a href="index.html" class="btn btn-outline">
+🏠 Back Home
 </a>
 
 </div>
@@ -458,92 +409,17 @@ chemistry platform.
 </section>
 
 <!-- =========================
-     FEATURES SECTION
+     SPECTROSCOPY TOPICS
 ========================= -->
 
-<section class="section">
+<section class="section" id="topics">
 
 <div class="section-title">
 
-<h2>Scientific Features</h2>
+<h2>Spectroscopy Topics</h2>
 
 <p>
-Advanced chemistry learning with futuristic technology
-</p>
-
-</div>
-
-<div class="card-grid">
-
-<div class="card">
-
-<i class="fa-solid fa-atom"></i>
-
-<h3>Atomic Structure</h3>
-
-<p>
-Learn electrons, protons, neutrons,
-orbitals and quantum models with interactive scientific visuals.
-</p>
-
-</div>
-
-<div class="card">
-
-<i class="fa-solid fa-flask-vial"></i>
-
-<h3>Virtual Experiments</h3>
-
-<p>
-Perform chemistry experiments digitally
-with modern simulation-based learning tools.
-</p>
-
-</div>
-
-<div class="card">
-
-<i class="fa-solid fa-microchip"></i>
-
-<h3>AI Chemistry</h3>
-
-<p>
-Discover how artificial intelligence
-is transforming pharmaceutical and chemical research.
-</p>
-
-</div>
-
-<div class="card">
-
-<i class="fa-solid fa-dna"></i>
-
-<h3>Biochemistry</h3>
-
-<p>
-Explore proteins, enzymes,
-DNA structures and molecular life sciences.
-</p>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- =========================
-     EXPLORE SPECTROSCOPY
-========================= -->
-
-<section class="section" id="spectroscopy">
-
-<div class="section-title">
-
-<h2>Explore Spectroscopy</h2>
-
-<p>
-Discover advanced spectroscopic techniques used in
-modern chemistry and scientific research
+Modern spectroscopy techniques for scientific analysis
 </p>
 
 </div>
@@ -554,24 +430,22 @@ modern chemistry and scientific research
 
 <i class="fa-solid fa-wave-square"></i>
 
-<h3>UV-Visible Spectroscopy</h3>
+<h3>UV Spectroscopy</h3>
 
 <p>
-Study electronic transitions,
-absorption spectra and molecular structure analysis.
+Study ultraviolet absorption and electronic transitions in molecules and compounds.
 </p>
 
 </div>
 
 <div class="card">
 
-<i class="fa-solid fa-chart-line"></i>
+<i class="fa-solid fa-lightbulb"></i>
 
 <h3>IR Spectroscopy</h3>
 
 <p>
-Analyze infrared vibrations,
-functional groups and molecular bonding systems.
+Analyze molecular vibrations and identify functional groups using infrared radiation.
 </p>
 
 </div>
@@ -583,8 +457,19 @@ functional groups and molecular bonding systems.
 <h3>NMR Spectroscopy</h3>
 
 <p>
-Understand nuclear magnetic resonance,
-chemical environments and structural determination.
+Understand molecular structures using nuclear magnetic resonance technology.
+</p>
+
+</div>
+
+<div class="card">
+
+<i class="fa-solid fa-bolt"></i>
+
+<h3>Mass Spectrometry</h3>
+
+<p>
+Determine molecular masses and fragmentation patterns of chemical substances.
 </p>
 
 </div>
@@ -593,76 +478,46 @@ chemical environments and structural determination.
 
 <i class="fa-solid fa-atom"></i>
 
-<h3>Mass Spectrometry</h3>
+<h3>Atomic Spectroscopy</h3>
 
 <p>
-Determine molecular masses,
-fragmentation patterns and compound identification.
+Study atomic absorption and emission techniques for elemental analysis.
 </p>
 
 </div>
 
 <div class="card">
 
-<i class="fa-solid fa-lightbulb"></i>
+<i class="fa-solid fa-flask"></i>
 
 <h3>Raman Spectroscopy</h3>
 
 <p>
-Study molecular vibrations,
-crystal structures and advanced material analysis.
+Explore Raman scattering and vibrational analysis of molecules.
 </p>
 
 </div>
 
 <div class="card">
 
-<i class="fa-solid fa-radiation"></i>
-
-<h3>ESR Spectroscopy</h3>
-
-<p>
-Explore electron spin resonance,
-free radicals and paramagnetic species.
-</p>
-
-</div>
-
-<div class="card">
-
-<i class="fa-solid fa-x-ray"></i>
-
-<h3>X-Ray Spectroscopy</h3>
-
-<p>
-Learn crystallography,
-X-ray diffraction and atomic structure analysis.
-</p>
-
-</div>
-
-<div class="card">
-
-<i class="fa-solid fa-sun"></i>
+<i class="fa-solid fa-vial"></i>
 
 <h3>Fluorescence Spectroscopy</h3>
 
 <p>
-Understand fluorescence emission,
-photochemistry and biological applications.
+Analyze fluorescent emissions and photochemical processes in compounds.
 </p>
 
 </div>
 
 <div class="card">
 
-<i class="fa-solid fa-fire"></i>
+<i class="fa-solid fa-microscope"></i>
 
-<h3>Atomic Absorption Spectroscopy</h3>
+<h3>X-Ray Spectroscopy</h3>
 
 <p>
-Measure trace metals and elemental concentration
-using atomic absorption methods.
+Study crystal structures and elemental composition using X-ray interactions.
 </p>
 
 </div>
@@ -672,24 +527,23 @@ using atomic absorption methods.
 </section>
 
 <!-- =========================
-     SCIENCE SECTION
+     APPLICATIONS SECTION
 ========================= -->
 
-<section class="section">
+<section class="section" id="applications">
 
-<div class="science-box">
+<div class="info-box">
 
 <h2>
-Modern Scientific Technology
+Applications of Spectroscopy
 </h2>
 
 <p>
-ChemNova combines futuristic design,
-scientific visualization and modern technology
-to create an advanced chemistry learning experience.
-Explore quantum chemistry, molecular structures,
-nanotechnology and scientific innovation through
-a premium next-generation interface.
+Spectroscopy is widely used in pharmaceuticals,
+forensic science, nanotechnology, environmental science,
+biochemistry, food technology and advanced scientific research.
+Modern spectroscopy helps scientists identify compounds,
+study molecular structures and analyze materials accurately.
 </p>
 
 </div>
@@ -697,28 +551,70 @@ a premium next-generation interface.
 </section>
 
 <!-- =========================
-     AUTHOR SECTION
+     RESEARCH SECTION
 ========================= -->
 
-<section class="author-section">
+<section class="section" id="research">
 
-<div class="author-card">
+<div class="section-title">
 
-<img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png">
-
-<h3>Alok Ranjan</h3>
+<h2>Research Areas</h2>
 
 <p>
-Chemistry Department
+Advanced scientific and industrial applications
 </p>
+
+</div>
+
+<div class="card-grid">
+
+<div class="card">
+
+<i class="fa-solid fa-capsules"></i>
+
+<h3>Pharmaceutical Analysis</h3>
 
 <p>
-L.N.M.U. Darbhanga Bihar
+Spectroscopy helps identify medicines and analyze pharmaceutical compounds.
 </p>
 
-<p style="margin-top:15px;">
-Research Enthusiast • Chemistry Student • Scientific Innovator
+</div>
+
+<div class="card">
+
+<i class="fa-solid fa-dna"></i>
+
+<h3>Biochemical Research</h3>
+
+<p>
+Study proteins, DNA and enzymes using modern spectroscopic methods.
 </p>
+
+</div>
+
+<div class="card">
+
+<i class="fa-solid fa-leaf"></i>
+
+<h3>Environmental Chemistry</h3>
+
+<p>
+Monitor pollutants and environmental samples using analytical spectroscopy.
+</p>
+
+</div>
+
+<div class="card">
+
+<i class="fa-solid fa-microchip"></i>
+
+<h3>Nanotechnology</h3>
+
+<p>
+Analyze nanoparticles and advanced materials using modern spectroscopy tools.
+</p>
+
+</div>
 
 </div>
 
@@ -728,14 +624,14 @@ Research Enthusiast • Chemistry Student • Scientific Innovator
      FOOTER
 ========================= -->
 
-<footer>
+<footer id="contact">
 
 <h3>
 ⚛ ChemNova
 </h3>
 
 <p>
-Modern Chemistry & Scientific Technology Platform
+Modern Chemistry & Spectroscopy Learning Platform
 </p>
 
 <p style="margin-top:15px;">
