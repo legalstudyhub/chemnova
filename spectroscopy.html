@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Explore Spectroscopy | ChemNova</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background:#050816;
+color:white;
+overflow-x:hidden;
+}
+
+/* BACKGROUND */
+
+.bg1{
+position:fixed;
+width:350px;
+height:350px;
+background:#00E5FF;
+filter:blur(180px);
+top:-100px;
+left:-100px;
+opacity:0.25;
+z-index:-1;
+}
+
+.bg2{
+position:fixed;
+width:400px;
+height:400px;
+background:#8B5CF6;
+filter:blur(200px);
+bottom:-100px;
+right:-100px;
+opacity:0.25;
+z-index:-1;
+}
+
+/* NAVBAR */
+
+.navbar{
+width:100%;
+padding:20px 8%;
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+background:rgba(5,8,22,0.85);
+backdrop-filter:blur(14px);
+
+position:fixed;
+top:0;
+left:0;
+
+z-index:1000;
+
+border-bottom:1px solid rgba(255,255,255,0.08);
+}
+
+.logo{
+font-size:32px;
+font-family:'Orbitron',sans-serif;
+color:#00E5FF;
+font-weight:700;
+}
+
+.nav-links{
+display:flex;
+gap:30px;
+}
+
+.nav-links a{
+color:white;
+text-decoration:none;
+font-weight:500;
+transition:0.3s;
+}
+
+.nav-links a:hover{
+color:#00E5FF;
+}
+
+/* HERO */
+
+.hero{
+padding:180px 10% 100px;
+text-align:center;
+}
+
+.hero h1{
+font-size:75px;
+margin-bottom:25px;
+
+font-family:'Orbitron',sans-serif;
+
+background:linear-gradient(to right,#00E5FF,#8B5CF6);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+}
+
+.hero p{
+max-width:850px;
+margin:auto;
+
+font-size:22px;
+line-height:1.9;
+color:#CBD5E1;
+}
+
+/* SECTION */
+
+.section{
+padding:80px 8%;
+}
+
+.section-title{
+text-align:center;
+margin-bottom:60px;
+}
+
+.section-title h2{
+font-size:48px;
+margin-bottom:15px;
+font-family:'Orbitron',sans-serif;
+color:#00E5FF;
+}
+
+.section-title p{
+font-size:18px;
+color:#CBD5E1;
+}
+
+/* CARDS */
+
+.card-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+}
+
+.card{
+background:rgba(255,255,255,0.05);
+
+border:1px solid rgba(255,255,255,0.08);
+
+border-radius:24px;
+
+padding:35px;
+
+backdrop-filter:blur(20px);
+
+transition:0.4s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+
+border-color:#00E5FF;
+
+box-shadow:0 10px 40px rgba(0,229,255,0.15);
+}
+
+.card i{
+font-size:45px;
+color:#00E5FF;
+margin-bottom:20px;
+}
+
+.card h3{
+font-size:28px;
+margin-bottom:15px;
+}
+
+.card p{
+color:#CBD5E1;
+line-height:1.8;
+}
+
+/* FOOTER */
+
+footer{
+background:#02040D;
+padding:60px 8%;
+text-align:center;
+
+border-top:1px solid rgba(255,255,255,0.08);
+}
+
+footer h3{
+color:#00E5FF;
+font-size:35px;
+margin-bottom:15px;
+font-family:'Orbitron',sans-serif;
+}
+
+footer p{
+color:#94A3B8;
+line-height:1.8;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:900px){
+
+.hero h1{
+font-size:48px;
+}
+
+.hero p{
+font-size:18px;
+}
+
+.nav-links{
+display:none;
+}
+
+.section-title h2{
+font-size:36px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="bg1"></div>
+<div class="bg2"></div>
+
+<!-- NAVBAR -->
+
+<nav class="navbar">
+
+<div class="logo">
+⚛ ChemNova
+</div>
+
+<div class="nav-links">
+<a href="index.html">Home</a>
+<a href="#">Spectroscopy</a>
+<a href="#">Research</a>
+<a href="#">Technology</a>
+</div>
+
+</nav>
+
+<!-- HERO -->
+
+<section class="hero">
+
+<h1>
+Explore Spectroscopy
+</h1>
+
+<p>
+Discover modern spectroscopic techniques used in
+advanced chemistry, molecular analysis,
+scientific laboratories and futuristic research.
+</p>
+
+</section>
+
+<!-- SPECTROSCOPY SECTION -->
+
+<section class="section">
+
+<div class="section-title">
+
+<h2>All Spectroscopy Topics</h2>
+
+<p>
+Advanced spectroscopy sub-topics for chemistry students and researchers
+</p>
+
+</div>
+
+<div class="card-grid">
+
+<div class="card">
+<i class="fa-solid fa-wave-square"></i>
+<h3>UV-Visible Spectroscopy</h3>
+<p>
+Study absorption spectra,
+electronic transitions and molecular structure analysis.
+</p>
+</div>
+
+<div class="card">
+<i class="fa-solid fa-chart-line"></i>
+<h3>IR Spectroscopy</h3>
+<p>
+Understand infrared vibrations,
+functional groups and molecular bonding systems.
+</p>
+</div>
+
+<div class="card">
+<i class="fa-solid fa-magnet"></i>
+<h3>NMR Spectroscopy</h3>
+<p>
+Explore nuclear magnetic resonance,
+chemical environments and structure determination.
+</p>
+</div>
+
+<div class="card">
+<i class="fa-solid fa-atom"></i>
+<h3>Mass Spectrometry</h3>
+<p>
+Learn molecular mass determination,
+fragmentation and compound identification.
+</p>
+</div>
+
+<div class="card">
+<i class="fa-solid fa-lightbulb"></i>
+<h3>Raman Spectroscopy</h3>
+<p>
+Analyze molecular vibrations,
+crystal structures and material characterization.
+</p>
+</div>
+
+<div class="card">
+<i class="fa-solid fa-radiation"></i>
+<h3>ESR Spectroscopy</h3>
+<p>
+Study electron spin resonance,
+free radicals and paramagnetic chemical species.
+</p>
+</div>
+
+<div class="card">
+<i class="fa-solid fa-x-ray"></i>
+<h3>X-Ray Spectroscopy</h3>
+<p>
+Explore crystallography,
+X-ray diffraction and atomic-level analysis.
+</p>
+</div>
+
+<div class="card">
+<i class="fa-solid fa-sun"></i>
+<h3>Fluorescence Spectroscopy</h3>
+<p>
+Understand fluorescence emission,
+photochemistry and biological applications.
+</p>
+</div>
+
+<div class="card">
+<i class="fa-solid fa-fire"></i>
+<h3>Atomic Absorption Spectroscopy</h3>
+<p>
+Measure trace metals and elemental concentration
+through atomic absorption methods.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+<h3>
+⚛ ChemNova
+</h3>
+
+<p>
+Modern Chemistry & Spectroscopy Platform
+</p>
+
+<p style="margin-top:15px;">
+Designed & Developed by Alok Ranjan
+</p>
+
+<p>
+Chemistry Department, L.N.M.U. Darbhanga Bihar
+</p>
+
+<p style="margin-top:20px;">
+© 2026 ChemNova. All Rights Reserved.
+</p>
+
+</footer>
+
+</body>
+
+</html>
